@@ -20,5 +20,5 @@ def reduce(array, starting_point = nil)
   sum = yield(sum, array[i])
   i += 1 
   end 
-  return sum
+   sum
 end  
